@@ -1,0 +1,590 @@
+.banner-intro{
+	height: 600px;
+	text-align: center;
+	position: relative;
+
+	&-info{
+		padding: 0px 30px;
+	}
+
+	&-title{
+		font-size: 4.8rem;
+		color: @white;
+		font-weight: bold;
+		font-family: @fontRaleway; 
+		text-transform: uppercase;
+	}
+	&-subtitle{
+		font-size: 3.6rem;
+		color: @white;
+		font-weight: 300;
+		font-family: @fontRaleway; 
+	}
+
+	&-down{
+		position: absolute;
+		bottom: 30px;
+		width: 100%;
+		left: 0px;
+		text-align: center;
+
+		.icon-down{
+			margin: 25px auto 0px;
+			display: block;
+			width: 20px;
+			color: @white;
+			font-size: 1.2rem;
+			&:hover{
+				color: @blue;
+			}
+		}
+	}
+}
+
+.banner-inter{
+	color: @white;
+
+	&-info{
+		max-width: 660px;
+		margin-left: 30px;
+	}
+
+	&-title{
+		font-weight: 300;
+		font-size: 5.2rem;
+		line-height: 1em;
+	}
+	&-subtitle{
+		padding: 15px 0px;
+		font-weight: 300;
+		font-size: 2.4rem;
+		max-width: 360px;
+	}
+}
+
+.about{
+	padding: 60px 0px;
+}
+
+.reasons{
+	padding: 60px 0px;
+}
+
+.reason{
+	&-list{
+		padding: 50px 0px;
+	}
+	&-item{
+		max-width: 290px;
+		margin: 0px auto;
+	}
+
+	&-title{
+		font-family: @fontRaleway;
+		font-weight: bold;
+		color: @blue;
+		letter-spacing: 4px;
+	}
+
+	&-slogan{
+		background: @bgGray;
+		padding: 10px 10px 2px;
+		margin-bottom: 5px;
+
+		font-family: @fontRaleway;
+		font-weight: bold;
+		color: @blue;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+
+		p{
+			line-height: 1.8em;
+		}
+	}
+
+	&-description{
+		font-size: 2.4rem;
+	}
+}
+
+.service{
+	min-height: 360px;
+	margin: 15px 5px;
+	padding-bottom: 50px;
+
+	&-item{
+		max-width: 480px;
+		margin: 0 auto;
+		padding: 0px 15px;
+
+		p{
+			font-weight: 300;
+			font-size: 2.4rem;
+			color: @white;
+		}
+
+		span{
+			font-weight: 300;
+			font-family: @fontRaleway;
+			font-size: 4rem;
+			color: @blue;
+			text-transform: uppercase;
+		}
+	}
+
+	&-cta{
+		justify-content: space-between;
+	}
+
+	&-list{
+		margin-top: 50px;
+	}
+}
+
+.with-line{
+	position: relative;
+
+	.line-left{
+		position: absolute;
+		top:0px;
+		left: 0px;
+		width: 1px;
+		height: 200px;
+		background: rgba(151,151,151,.2);
+	}
+
+	.line-right{
+		position: absolute;
+		top:0px;
+		right: 0px;
+		width: 1px;
+		height: 200px;
+		background: rgba(151,151,151,.2);
+		display: block;
+	}
+
+}
+
+.cta-section{
+	text-align: center;
+}
+
+.home{
+	&-services{
+		padding: 60px 0px;
+	}
+
+	.banner-inter{
+		padding: 140px 0 90px
+	}
+	
+}
+
+.about-us{
+	.banner-inter{
+		padding: 40px 0px 10px;
+	}
+	.banner-inter-info{
+		max-width: 690px;
+	}
+
+	.reasons{
+		padding: 20px 0px 40px;
+		.reason-image{
+			margin-bottom: 30px;
+		}
+
+		.with-line{
+			.line-left, .line-right{
+				top: 100px;
+			}
+		} 
+	}
+}
+
+.certifications{
+	padding: 30px 0px;
+
+	&-list{
+		padding: 30px 0px;
+	}
+
+	.certification{
+		min-height: 255px;
+		background: rgba(205,202,192,.2);
+		margin: 15px 5px;
+		&-logo{
+		    margin-bottom: 50px;
+		}
+		&-title{
+			text-transform: uppercase;
+			font-family: @fontRaleway;
+			font-weight: bold;
+			text-align: center;
+			padding-bottom: 20px;
+		}
+	}
+}
+
+.alliances, .fiscal-services, .audit-services, .countable-services, .legal-services{
+	padding: 40px 0px 20px;
+
+	&-info{
+		max-width: 530px;
+	}
+
+	&-title{
+		font-family: @fontRaleway;
+		font-weight: 300;
+		text-align: center;
+		font-size: 6rem;
+		color: @blue;
+		text-transform: uppercase;
+	}
+
+	&-description{
+		color: @blue;
+		font-size: 2.6rem;
+		text-align: center;
+		line-height: 1.5em;
+	}
+
+	&-list{
+		margin: 30px 0px;
+		padding: 0px;
+		list-style-type: none;
+		color: @white;
+		font-size: 1.9rem;
+		text-transform: uppercase;
+		font-family: @fontRaleway;
+		font-weight: bold;
+
+		i{
+			color: @blue;
+			font-size: 1.4rem;
+			font-weight: normal;
+			margin-right: 5px;
+		}
+	}
+}
+
+.philanthropy{
+	padding: 60px 0px 20px;
+	.reason-image{
+		height: 90px;
+	}
+	&-title{
+		font-size: 2.6rem;
+		color: @blue;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&-subtitle{
+		color: @blue;
+		font-family: @fontRaleway;
+		font-weight: bold;
+		letter-spacing: 4px;
+		font-size: 1.9rem;
+		text-transform: uppercase;
+		line-height: 1.5em;
+	}
+}
+
+.team{
+	padding: 40px 0px;
+	&-item{
+		margin: 60px auto;
+	}
+
+	&-info{
+		max-width: 290px;
+		margin: 0 auto;
+	}
+
+	&-image{
+		text-align: center;
+		height: 100px;
+	}
+
+	&-name{
+		text-transform: uppercase;
+	  	color: @blue;
+	  	font-size: 1.9rem;
+	  	font-family: @fontRaleway;
+	  	font-weight: bold;
+	  	text-align: center; 
+	  	letter-spacing: 4px;
+	  	margin-bottom: 0px;
+	}
+
+	&-position{
+		font-size: 2.6rem;
+		color: @blue;
+		text-align: center; 
+	}
+
+	&-description{
+		font-size: 2.2rem;
+		text-align: justify;
+		border-left: 1px solid rgba(151, 151, 151, .2);
+		padding-left: 80px;
+	}
+}
+
+.areas{
+	padding: 40px 0px;
+
+	&-list{
+		margin: 40px auto;
+	}
+
+	&-title{
+		text-transform: uppercase;
+	  	color: @blue;
+	  	font-size: 2.4rem;
+	  	font-family: @fontRaleway;
+	  	font-weight: 300;
+	  	text-align: center; 
+	  	padding: 20px 0px 10px;
+	  	margin-bottom: 0px;
+	  	letter-spacing: 3px;
+	}
+	&-description{
+		font-size: 2.2rem;
+		text-align: justify;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+}
+
+.fiscal, .audit, .countable, .legal{
+	.banner-inter{
+		.columns{
+			min-height: 600px;
+		}
+
+		&-logo{
+			padding: 20px 0px;
+		}
+	}
+
+	&-services-title{
+		font-size: 3.6rem;
+		text-transform: uppercase;
+		text-align: left;
+		letter-spacing: 4px;
+	}
+	&-services-info{
+		margin-top: 30px;
+	}
+
+	.with-line .line-left, .with-line .line-right{
+		height: 100%;
+	}
+
+	.reason-item{
+		margin: 0 auto 50px;
+	}
+}
+
+.advantages{
+	padding: 50px 0px;
+
+	.title-section{
+		margin-bottom: 0px;
+	}
+
+	.reason-image{
+		margin-bottom: 20px;
+	}
+
+	.reason-description{
+		padding: 10px 0px;
+	}
+}
+
+.audit{
+	.banner-inter-title{
+		font-size: 4.8rem;
+	}
+
+	&-services-title{
+		line-height: 1.5em;
+	}
+
+	&-services-info{
+		max-width: 670px;
+	}
+
+	&-services-list{
+	    margin: 80px 0 0px;
+	}
+}
+
+.countable{
+	.banner-inter-title{
+		font-size: 4.8rem;
+	}
+
+	&-services-title{
+		line-height: 1.5em;
+	}
+
+	&-services-info{
+		max-width: 670px;
+	}
+
+	&-services-list{
+	    margin: 80px 0 0px;
+	}
+}
+
+.legal{
+	.reason-image{
+		height: 60px;
+	}
+}
+
+.contact{
+
+	padding: 80px 0px 60px;
+
+	#contact-form{
+		max-width: 600px;
+	}
+
+	label{
+		font-size: 1.4rem;
+		&.error{
+			color: @red;
+			margin-bottom: 15px;
+		}
+	}
+
+	.label-input{
+		color: @blue;
+		font-family: @fontRaleway;
+	  	font-weight: 300;
+	  	text-transform: uppercase;
+	  	padding-left: 10px;
+	  	letter-spacing: 2px;
+	}
+
+	.block-button{
+		text-align: center;
+		padding: 20px 0px;
+		max-width: 600px;
+	}
+
+	&-info{
+		max-width: 380px;
+	}
+
+	&-name{
+		font-size: 2.6rem;
+		color: @blue;
+		text-align: center;
+	}
+
+	&-address, &-phones{
+		font-size: 2.2rem;
+		margin: 0px;
+
+		a{
+			color: @colorDefault;
+		}
+		span{
+			padding: 0px 4px;
+		}
+	}
+	&-map{
+		margin: 15px 0px;
+		display: block;
+	}
+
+	.slogan-section p{
+		font-weight: normal;
+	}
+
+	.retro{
+		font-size: 1.4rem;
+		color: @blue;
+		text-align: center;
+		&.error{
+			color: @red;
+		}
+	}
+}
+
+.contact-section{
+	.Header{
+		background: @darkgray;
+		position: relative !important;
+	}
+
+	.instructions{
+		font-size: 2.2rem;
+		margin-bottom: 30px;
+		max-width: 600px;
+	}
+}
+
+.input-custom{
+ 	width: 100%;
+ 	max-width: 600px;
+
+  	input, textarea{
+	    width: 100%;
+	    font-size: 1.8rem;
+	    height: auto;
+	    background: @bgLightgray;
+	    border: none;
+	    box-shadow: none;
+	    .radius(4px);
+	    color: @colorDefault;
+	    margin: 0px 0px 10px;
+	    padding: 15px 20px;
+
+	    &:focus{
+	      outline: none;
+	      border: none;
+	    }
+
+  	}
+
+	textarea{
+	    height: 110px;
+	}
+}
+
+.select-custom{
+ 	width: 100%;
+ 	max-width: 600px;
+
+  	select{
+	    width: 100%;
+	    font-size: 1.8rem;
+	    height: auto;
+	    background-color: @bgLightgray;
+	    background-image: url('../img/arrow-down.png');
+	    background-position: center right;
+	    background-size: 15px 9px;
+	    border: none;
+	    box-shadow: none;
+	    .radius(4px);
+	    color: @colorDefault;
+	    margin: 0px 0px 10px;
+	    padding: 15px 20px;
+	    text-transform: uppercase;
+	    letter-spacing: 2px;
+
+	    &:focus{
+	      outline: none;
+	      border: none;
+	    }
+
+  	}
+
+}

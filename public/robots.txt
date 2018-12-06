@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://almer2.intagono.se/sitemap.xml
