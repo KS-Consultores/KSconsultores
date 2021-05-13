@@ -1,0 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+html{
+	font-size: 10px;
+}
+
+.radius(@size: 50%){
+      -webkit-border-radius: @size;
+     -moz-border-radius: @size;
+     border-radius: @size;
+}
+
+.date(){
+     font-size: 1.8rem;
+     color: @lightgray;
+     text-transform: uppercase;
+     padding: 0px;
+     font-family: @fontRaleway;
+}
+
+.order( @position: inherit ){
+  -webkit-box-ordinal-group: @position; 
+  -moz-box-ordinal-group: @position;     
+  -ms-flex-order: @position;             
+  -webkit-order: @position;     
+  order: @position;
+}
+
+body, html {
+    height: 100%;
+}
+
+body{
+	color: @colorDefault;
+	background-color: @white;
+	font-family: @fontFamily;
+     font-size: 1.8rem;
+}
+
+
+//Ajuste para que no tome los estilos del framework Foundation
+h1, h2, h3, h4, h5, h6{
+     font-family: @fontFamily;
+     line-height: inherit;
+}
+
+a{  
+    cursor: pointer;
+    color: @colorLink;
+    text-decoration: none;
+    word-break: break-word;
+     &:hover{
+          color: @colorLinkHover;
+     }
+
+     &:focus{
+          color: inherit;
+          outline: none;
+     }
+}
+
+p{
+  line-height: 1.2em;
+  word-break: break-word;
+}
+
+.flex{
+     display: -webkit-flex;
+     display: flex;
+
+     -webkit-flex-wrap: wrap;
+     flex-wrap: wrap;
+
+     -ms-flex-flow: wrap;
+     flex-flow: wrap;
+}
+
+.row{
+     max-width: 1200px;
+     padding: 0px 20px;
+
+     &.full-width{
+          max-width: 100%;
+          padding: 0px;
+     }
+}
+
+.clear{
+     clear: both;
+}
+
+.btn-custom{
+     width: 255px;
+     text-align: center;
+     display: inline-block;
+     
+     color: @white;
+     font-size: 1.7rem;
+     font-weight: bold;
+     font-family: @fontRaleway;
+     text-transform: uppercase;
+
+     background: @blue;
+     padding: 12px 0px;
+
+     &:hover{
+          background: @lightgray;
+          color: @white;
+     }
+
+     &:focus, &:active{
+          outline: none;
+          color: inherit;
+          color: @white;
+     }
+
+     .radius(40px);
+}
+
+.btn-border{
+     width: auto;
+     text-align: center;
+     display: inline-block;
+     
+     color: @blue;
+     font-size: 1.8rem;
+     font-weight: 300;
+     font-family: @fontRaleway;
+     text-transform: uppercase;
+
+     background: none;
+     padding: 12px 30px;
+
+     border: 2px solid @blue;
+     letter-spacing: 2px;
+
+     &:hover{
+          background: @blue;
+          color: @white;
+     }
+
+     &:focus, &:active{
+          outline: none;
+          color: inherit;
+          
+     }
+
+     &:active{
+        color: @blue;
+        background: none;
+
+     }
+
+     .radius(4px);
+}
+
+.btn-next{
+  width: 60px;
+  height: 60px;
+  .radius();
+  border: 3px solid @white;
+  color: @white;
+
+  &:hover{
+    background: @blue;
+    color: @white;
+    border-color: @blue;
+  }
+}
+
+.title-section{
+  text-transform: uppercase;
+  color: @lightgray;
+  font-size: 1.9rem;
+  font-family: @fontRaleway;
+  font-weight: bold;
+  text-align: center; 
+  margin-bottom: 40px;
+  letter-spacing: 4px;
+
+  &.blue{
+    color: @blue;
+  }
+}
+
+.title-big{
+  text-transform: uppercase;
+  color: @blue;
+  font-size: 6rem;
+  font-family: @fontRaleway;
+  font-weight: 300;
+  text-align: center; 
+  letter-spacing: 7px;
+}
+
+.title-medium{
+  text-transform: uppercase;
+  color: @blue;
+  font-size: 3.6rem;
+  font-family: @fontRaleway;
+  font-weight: 300;
+  text-align: center; 
+  letter-spacing: 7px;
+  line-height: 1.5em;
+}
+
+.subtitle-section{
+  color: @blue;
+  font-size: 2.6rem;
+  text-align: center; 
+  max-width: 740px;
+  margin: 0px auto;
+  line-height: 1.5em;
+}
+
+.slogan-section{
+  padding: 40px 0px;
+  p{
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: @lightgray;
+    max-width: 928px;
+    margin: 0 auto;
+  }
+  span{
+    font-weight: bold;
+    font-size: 8.5rem;
+    color: @blue;
+  }
+}
+
+.img-cover{
+     background-size: cover !important;
+     background-position: center center !important;
+     background-repeat: no-repeat !important;
+}
+
+.bg-gray{
+     background: @bgLightgray;
+}
+
+.animated{
+     opacity: 0;
+}
+
+.loading{
+     display: none;
+     
+     .spinner {
+       margin: 0px auto;
+       width: 40px;
+       height: 40px;
+       position: relative;
+       text-align: center;
+       
+       -webkit-animation: sk-rotate 2.0s infinite linear;
+       animation: sk-rotate 2.0s infinite linear;
+     }
+
+     .dot1, .dot2 {
+       width: 60%;
+       height: 60%;
+       display: inline-block;
+       position: absolute;
+       top: 0;
+       background-color: @blue;
+       border-radius: 100%;
+       
+       -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+       animation: sk-bounce 2.0s infinite ease-in-out;
+     }
+
+     .dot2 {
+       top: auto;
+       bottom: 0;
+       -webkit-animation-delay: -1.0s;
+       animation-delay: -1.0s;
+     }
+
+     @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+     @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+     @-webkit-keyframes sk-bounce {
+       0%, 100% { -webkit-transform: scale(0.0) }
+       50% { -webkit-transform: scale(1.0) }
+     }
+
+     @keyframes sk-bounce {
+       0%, 100% { 
+         transform: scale(0.0);
+         -webkit-transform: scale(0.0);
+       } 50% { 
+         transform: scale(1.0);
+         -webkit-transform: scale(1.0);
+       }
+     }
+}

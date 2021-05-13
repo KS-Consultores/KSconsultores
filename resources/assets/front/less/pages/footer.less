@@ -1,0 +1,148 @@
+@colorBottom: @white;
+@bgBottom: @darkgray;
+@sizeCopyBottom : 1.4rem;
+@weightCopyBottom : normal;
+@paddingBottom: 15px 0px 20px;
+
+.Bottom{
+
+     background: @bgBottom;
+     color: @white;
+     font-size: @sizeCopyBottom;
+     padding: @paddingBottom;
+
+     p{
+          margin-bottom: 0px;
+          padding: 4px 0px;
+     }
+
+     a{
+          color: @white;
+          margin:0px 8px;
+
+          &:hover{
+               color: @blue;
+          }
+     }
+
+     .logo-footer{
+          margin-right: 10px;
+          margin-left: 0px;
+          display: inline-block;
+     }
+
+     .info-footer{
+          i{
+               margin-right: 8px;
+          }
+          p{
+               margin-right: 10px;
+          }
+          a{
+               color: @white;
+               font-size: 1.8rem;
+          }
+     }
+
+     .social-links{
+          a{
+               width: 39px;
+               height: 39px;
+               display: block;
+               border: 2px solid @white;
+               color: @white;
+               .radius();
+               text-align: center;
+               i{
+                    font-size: 2rem;
+                    top: 7px;
+                    position: relative;
+               }
+               &:hover{
+                    background: @blue;
+                    border-color: @blue;
+               }
+          }
+     }
+
+     .link-contact{
+          font-size: 2.6rem;
+          color: @blue;
+          margin-left: 30px;
+          &:hover{
+               color: @lightgray;
+          }
+     }
+
+     .mail-footer{
+          margin-left: 40px;
+          &:hover{
+               color: @lightgray;
+          }
+     }
+
+     .logo-intagono{
+          width: 100%;
+          text-align: right;
+          a{
+               &:hover{
+                    opacity: .5;
+               }
+          }
+     }
+
+     &-copy{
+          margin-left: 10px;
+     }
+
+     &-phones{
+          font-size: 1.8rem;
+          a{
+               &:hover{
+                    color: @lightgray;
+               }
+          }
+     }
+}
+
+@media (max-width: 1023px){
+     .Bottom .info-footer a{
+          margin: 0px;
+          word-break: break-word;
+     }
+
+     .Bottom{
+          text-align: center;
+          .links-footer{
+               justify-content: center;
+          }
+
+          .align-right{
+               justify-content: center;
+          }
+
+          .logo-intagono{
+               text-align: center;
+               margin: 20px auto;
+          }
+     }
+
+
+}
+
+@media (max-width: 767px){
+    
+}
+
+@media (max-width: 640px){
+
+     .Bottom .info-footer p{
+          a{
+               display: block;
+          }
+          span{
+               display: none;
+          }
+     }
+
+}
