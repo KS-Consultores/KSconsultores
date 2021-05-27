@@ -37,18 +37,19 @@
 <section class="about" id="intro">
 	<div class="row">
 		<div class="columns small-12">
-			<p class="title-section">Qué es KS Consultores</p>
+			<p class="title-section"></p>
 
 			<p class="title-big"><b>KS Consultores</b></p>
 
-			<p class="subtitle-section">Unimos la  experiencia <b>contable, fiscal y financiera</b> para crear <b>soluciones integrales con nuestra experiencia de más de 25 años, con un equipo ético y profesional, la asesoría que te garantice tu seguridad y tranquilidad.</b></p>
+			<p class="subtitle-section">Unimos la  experiencia <b>Inmobiliaria, Patrimonial y Fiscal</b> para crear <b>soluciones integrales con nuestra experiencia de más de 25 años, con un equipo ético y profesional, la asesoría que te garantice tu seguridad y tranquilidad.</b></p>
 
 			<div class="slogan-section row align-middle text-center">
 				<div class="small-2 medium-1"> 
 					<span>“</span>
 				</div>
 				<div class="small-8 medium-10"> 
-					<p>Sumamos la experiencia de consultores en materia de <b>asesoría fiscal, contabilidad, auditoría y legal</b> para crear KS Consultores, una firma innovadora dedicada a ofrecer soluciones personalizadas a empresarios, compañías consolidadas y emprendedores. </p>
+					<!--<p>Sumamos la experiencia de consultores en materia de <b>asesoría fiscal, contabilidad, auditoría y legal</b> para crear KS Consultores, una firma innovadora dedicada a ofrecer soluciones personalizadas a empresarios, compañías consolidadas y emprendedores. </p>-->
+					<p>Somos una firma <b>innovadora y en constante actualización</b> dedicada a ofrecer soluciones personalizadas a las empresas de manera integral</p>
 				</div>
 				<div class="small-2 medium-1"> 
 					<span>”</span>
@@ -65,7 +66,7 @@
 		<div class="columns small-12">
 			<div class="banner-inter-info">
 				<p class="banner-inter-title">¡Mejoramos la toma de decisiones y minimizamos tus <b>riesgos patrimoniales, fiscales y financieros!</b></p>
-				<p class="banner-inter-subtitle">En KS Consultores solucionamos todo tipo de <b>problemas contables, fiscales y patrimoniales</b> a empresas de diversos giros.</p>
+				<!--<p class="banner-inter-subtitle">En KS Consultores solucionamos todo tipo de <b>problemas contables, fiscales y patrimoniales</b> a empresas de diversos giros.</p>-->
 			</div>
 		</div>
 	</div>
@@ -107,7 +108,7 @@
 				<div class="reason-slogan">
 					<p>Vamos <br />contigo</p>
 				</div>
-				<p class="reason-description">Compartimos nuestra experiencia profesional para acompañarte en el crecimiento de tu empresa.</p>
+				<p class="reason-description">Compartimos nuestra experiencia profesional para acompañarte en el <b>crecimiento de tu empresa.</b></p>
 			</div>
 			<div class="line-right"></div>
 		</div>
@@ -121,7 +122,7 @@
 				<div class="reason-slogan">
 					<p>Siempre a la <br />vanguardia</p>
 				</div>
-				<p class="reason-description">Contamos con personal técnico especializado, experimentado y actualizado en impuestos, seguridad social y tecnologías de información.</p>
+				<p class="reason-description">Contamos con personal <b>técnico especializado</b>, experimentado y actualizado en impuestos, seguridad social y <b>tecnologías de información.</b></p>
 			</div>
 		</div>
 	</div>
@@ -138,7 +139,7 @@
 		<div class="columns small-12 medium-6">
 			<div class="service img-cover flex align-bottom" style="background-image: url('{{ asset('front/img/servicio-1.jpg') }}')">
 				<div class="service-item">
-					<p>Implementación de <b>soluciones fiscales</b> estratégicas y personalizadas</p>
+					<p>Implementación de <b>soluciones fiscales</b> personalizadas</p>
 					<div class="service-cta flex">
 						<span><b>Fiscal</b></span>
 						<a class="btn-next flex align-middle align-center" href="{{route('fiscal')}}"><i class="icon-arrow-next2"></i></a>
@@ -149,9 +150,9 @@
 		<div class="columns small-12 medium-6">
 			<div class="service img-cover flex align-bottom" style="background-image: url('{{ asset('front/img/servicio-2.jpg') }}')">
 				<div class="service-item">
-					<p><b>Elaboración y análisis de la contabilidad</b> según necesidades específicas</p>
+					<p>Alta experiencia en materia de <b>bienes raíces</b>, Te ofrecemos un respaldo integral</p>
 					<div class="service-cta flex">
-						<span><b>Contable</b></span>
+						<span><b>Patrimonial</b></span>
 						<a class="btn-next flex align-middle align-center" href="{{route('countable')}}"><i class="icon-arrow-next2"></i></a>
 					</div>
 				</div>
@@ -160,7 +161,7 @@
 		<div class="columns small-12 medium-6">
 			<div class="service img-cover flex align-bottom" style="background-image: url('{{ asset('front/img/servicio-3.jpg') }}')">
 				<div class="service-item">
-					<p>Mediante normas y nuestra experiencia evaluamos controles y riesgos de tu empresa, emitiendo opinión con recomendaciones.</p>
+					<p>Mediante normas y nuestra experiencia evaluamos controles y <b>riesgos de tu empresa</b> para la toma de decisiones.</p>
 					<div class="service-cta flex">
 						<span><b>Auditoría</b></span>
 						<a class="btn-next flex align-middle align-center" href="{{route('audit')}}"><i class="icon-arrow-next2"></i></a>
