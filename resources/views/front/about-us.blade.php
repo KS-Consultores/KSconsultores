@@ -17,7 +17,7 @@
 <section class="banner-intro img-cover flex align-middle align-center" style="background-image: url('{{ asset('front/img/banner-nosotros.jpg') }}')">
     <div class="banner-intro-info">
         <h1 class="banner-intro-title">KS CONSULTORES</h1>
-        <h2 class="banner-intro-subtitle">tu aliado fiscal</h2>
+        <h2 class="banner-intro-subtitle">El cambio que te conviene</h2>
     </div>
 
     <div class="banner-intro-down">
@@ -36,7 +36,7 @@
                     <span>“</span>
                 </div>
                 <div class="small-8 medium-10">
-                    <p>En 2003 nuestro socio fundador, el CPC. Ernesto Ahumada Gutiérrez, unió la experiencia de consultores en materias de asesoría y planeación fiscal para crear KS Ahumada Gutiérrez & Asociados, S.C. Una firma innovadora dedicada a ofrecer servicios fiscales, de auditoria y de gestión de negocios de manera integral. </p>
+                    <p>En 2003 nuestro socio fundador, el CPC. Ernesto Ahumada Gutiérrez, unió la experiencia de consultores en materias de asesoría y gestión de negocios para crear KS Consultores <!--Ahumada Gutiérrez & Asociados, S.C. Una firma innovadora dedicada a ofrecer servicios fiscales, de auditoria y de gestión de negocios de manera integral.--> </p>
                 </div>
                 <div class="small-2 medium-1">
                     <span>”</span>
@@ -52,7 +52,7 @@
     <div class="row">
         <div class="columns small-12">
             <div class="banner-inter-info">
-                <p class="banner-inter-title">Desde entonces, tenemos el compromiso de brindar soluciones personalizadas a cada uno de nuestros clientes en temas de impuestos, seguridad social, impuestos al comercio exterior; y servicios en las áreas de auditoría.</p>
+                <p class="banner-inter-title">Desde entonces, tenemos el <b>compromiso</b> de brindar soluciones personalizadas a cada uno de nuestros clientes. <!--en temas patrimoniales, seguridad social, impuestos al comercio exterior; y servicios en las áreas de auditoría.--></p>
                 <p class="banner-inter-subtitle">Con la asesoría de KS Consultores, la experiencia y profesionalismo está de tu lado.</p>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 </div>
                 <p class="reason-title">Misión</p>
 
-                <p class="reason-description">Lograr la satisfacción y rentabilidad de nuestros clientes a través de soluciones integrales en materia fiscal y financiera diseñadas de forma objetiva, eficaz y estratégica.</p>
+                <p class="reason-description">Lograr la satisfacción y <b>rentabilidad</b> de nuestros clientes a través de <b>soluciones integrales</b> <!--en materia fiscal y financiera--> diseñadas de forma objetiva, eficaz y estratégica.</p>
             </div>
         </div>
         <div class="columns small-12 medium-6 large-4 with-line">
@@ -85,7 +85,8 @@
                 </div>
                 <p class="reason-title">Visión</p>
 
-                <p class="reason-description">Consolidarnos como la firma especializada de consultores distinguida por brindar a nuestros clientes tranquilidad y seguridad en su entorno de negocio.</p>
+                <!--<p class="reason-description">Consolidarnos como la firma especializada de consultores distinguida por brindar a nuestros clientes tranquilidad y seguridad en su entorno de negocio.</p>-->
+                <p class="reason-description">Consolidarnos como firma <b>especializada</b> de asesores, distinguida por <b>brindar tranquilidad</b> y seguridad en su entorno de negocio</p>
             </div>
             <div class="line-right"></div>
         </div>
@@ -98,7 +99,7 @@
                 </div>
                 <p class="reason-title">Valores</p>
 
-                <p class="reason-description">Actuamos con ética y nos comprometemos a brindar siempre un servicio personalizado y confidencial a cada uno de nuestros clientes.</p>
+                <p class="reason-description">Actuamos con <b>ética</b> y nos comprometemos a brindar siempre un servicio personalizado y <b>confidencial</b> a cada uno de nuestros clientes.</p>
             </div>
         </div>
     </div>
@@ -123,7 +124,7 @@
                             </picture>
                         </a>
                     </div>
-                    <div class="certification-title">Socios</div>
+                    <div class="certification-title">Socios <br>(Capacitador externo)</div>
                 </div>
             </div>
         </div>
@@ -141,7 +142,7 @@
                 </div>
             </div>
         </div>
-        <div class="columns small-12 medium-6 large-4">
+       <!-- <div class="columns small-12 medium-6 large-4">
             <div class="certification flex align-center align-bottom">
                 <div class="certification-info">
                     <div class="certification-logo text-center">
@@ -152,7 +153,7 @@
                     <div class="certification-title">Consultores</div>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="columns small-12 medium-6 large-4">
             <div class="certification flex align-center align-bottom">
                 <div class="certification-info">
@@ -166,7 +167,7 @@
                     <div class="certification-title">Participantes</div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="columns small-12 medium-6 large-4">
             <div class="certification flex align-center align-bottom">
                 <div class="certification-info">
@@ -204,7 +205,7 @@
                 <ul class="alliances-list">
                     <li><i class="icon-check"></i> Defensa Tributaria</li>
                     <li><i class="icon-check"></i> Coaching empresarial y reclutamiento</li>
-                    <li><i class="icon-check"></i> Implementación de Desarrollo Organizacional</li>
+                    <!--<li><i class="icon-check"></i> Implementación de Desarrollo Organizacional</li>-->
                     <li><i class="icon-check"></i> Comercio Exterior</li>
                     <li><i class="icon-check"></i> Marcas y patentes</li>
                     <li><i class="icon-check"></i> Patrimonial</li>
@@ -220,7 +221,7 @@
 <section class="philanthropy">
     <div class="row">
         <div class="columns small-12">
-            <p class="title-section">Qué es KS Consultores</p>
+            <!--<p class="title-section">Qué es KS Consultores</p>-->
             <p class="title-big">Filantropía</p>
             <p class="subtitle-section">Parte de nuestra filosofía consiste en ayudar a los demás a crecer y ser felices, por eso demostramos nuestro apoyo a las siguientes asociaciones: </p>
         </div>
@@ -250,7 +251,7 @@
                 </div>
 
                 <p class="philanthropy-title">Consejo</p>
-                <p class="philanthropy-subtitle">Una Oportunidad <br />de Vida AC</p>
+                <p class="philanthropy-subtitle">Fundación <br />Roberto Chávez AC</p>
 
             </div>
             <div class="line-right"></div>
@@ -281,16 +282,16 @@
                     <span>“</span>
                 </div>
                 <div class="small-8 medium-10">
-                    <p>Con experiencia contable, fiscal, administrativa y auditoría, <br />encontramos juntos las mejores soluciones.</p>
+                    <p>Con experiencia en tema de inmobiliario, fiscal, gestión de negocios y auditoría, <br />encontramos juntos las mejores soluciones.</p>
                 </div>
                 <div class="small-2 medium-1">
                     <span>”</span>
                 </div>
             </div>
-            <p class="title-section blue">Conoce a cada uno de los miembros de KS Consultores:</p>
+            <p class="title-section blue">Conoce a cada uno de los miembros de KS Consultores</p>
         </div>
     </div>
-    <div class="row team-item align-middle">
+   <!-- <div class="row team-item align-middle">
         <div class="columns small-12 medium-4">
             <div class="team-info">
                 <div class="team-image">
@@ -353,7 +354,7 @@
         <div class="columns small-12 medium-8">
             <p class="team-description">El buen oyente de KS Consultores, Osvaldo se ha convertido en el conciliador por excelencia de la firma. Es licenciado en Administración con experiencia en los departamentos de administración de diversos giros de compañías. Se incorpora a KS Consultores para cubrir la logística interna de la consultoría y brindar el soporte de recursos humanos a todos los colaboradores.</p>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <section class="areas bg-gray">
@@ -367,22 +368,25 @@
             <div class="areas-image text-center">
                 <img src="{{asset('front/img/area-1.jpg')}}" alt="contabilidad" />
             </div>
-            <p class="areas-title">Contabilidad</p>
-            <p class="areas-description">Esta área de KS es la responsable de cubrir las necesidades de nuestros clientes en su contabilidad, en donde interviene toda la estructura de contadores; profesionistas en atender y solucionar dudas respecto a la materia, que con sus múltiples personalidades generan un excelente ambiente de trabajo, que se refleja con los resultados y satisfacción de nuestros clientes.</p>
+            <p class="areas-title">Patrimonio (Inmobiliario)</p>
+            <!--<p class="areas-description">Esta área de KS es la responsable de cubrir las necesidades de nuestros clientes en su contabilidad, en donde interviene toda la estructura de contadores; profesionistas en atender y solucionar dudas respecto a la materia, que con sus múltiples personalidades generan un excelente ambiente de trabajo, que se refleja con los resultados y satisfacción de nuestros clientes.</p>-->
+            <p class="areas-description">En esta área nuestros asesores buscan una adecuada implementación inmobiliaria, de acuerdo a las mejores prácticas y los mecanismos jurídicos de control para respaldar tus operaciones. Falta detallar el servicio</p>
         </div>
         <div class="columns small-12 medium-6 large-4">
             <div class="areas-image text-center">
                 <img src="{{asset('front/img/area-2.jpg')}}" alt="fiscal" />
             </div>
             <p class="areas-title">Fiscal</p>
-            <p class="areas-description">Es el área especializada por excelencia, en ella desembocan temas relevantes de las asesorías brindadas, las cuales se trabajan estratégicamente para lograr una correcta toma de decisión respecto a los temas fiscales que acontecen.<br />Con la peculiaridad del equipo, demuestran que con lo alegres y dinámicos que son, la presión esta de su lado.</p>
+            <!--<p class="areas-description">Es el área especializada por excelencia, en ella desembocan temas relevantes de las asesorías brindadas, las cuales se trabajan estratégicamente para lograr una correcta toma de decisión respecto a los temas fiscales que acontecen.<br />Con la peculiaridad del equipo, demuestran que con lo alegres y dinámicos que son, la presión esta de su lado.</p>-->
+            <p class="areas-description">El cumplimento de las obligaciones fiscales hoy en día, resultan ser más relevantes para el desarrollo de las empresas, por ello en KS les ofrecemos intervenciones de alto valor con nuestros asesores especializados en el tema. Falta detallar el servicio</p>
         </div>
         <div class="columns small-12 medium-6 large-4">
             <div class="areas-image text-center">
                 <img src="{{asset('front/img/area-3.jpg')}}" alt="auditoría" />
             </div>
             <p class="areas-title">Auditoría</p>
-            <p class="areas-description">Es el departamento que lleva a cabo todas las operaciones de intervención en las auditorias, fiscales, IMSS, Financieras, costos y específicas, que requieran nuestros clientes, con su forma directa y organizada, logran sacar abante su opción acertada, con resultados favorables para nuestros clientes.</p>
+           <!-- <p class="areas-description">Es el departamento que lleva a cabo todas las operaciones de intervención en las auditorias, fiscales, IMSS, Financieras, costos y específicas, que requieran nuestros clientes, con su forma directa y organizada, logran sacar abante su opción acertada, con resultados favorables para nuestros clientes.</p>-->
+            <p class="areas-description">Dentro de nuestras revisiones detectamos irregularidades o anomalías generando información relevante para la prevención de control interno e incumplimiento con las autoridades y sea referente para la toma de decisiones. Falta detallar el servicio</p>
         </div>
     </div>
 </section>

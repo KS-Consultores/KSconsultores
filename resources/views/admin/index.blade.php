@@ -182,7 +182,7 @@
 							</div>
 							<div class="alert alert-success display-hide">
 								<button class="close" data-close="alert"></button>
-								Your form validation is successful!
+								Your form validation is successful! 
 							</div>
 							<div class="form-group">
 								<label class="control-label col-md-3">Name <span class="required">

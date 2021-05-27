@@ -124,7 +124,7 @@
                             <a href="{{route('audit')}}">Auditoría</a>
                         </li>
                         <li>
-                            <a href="{{route('countable')}}">Contable</a> 
+                            <a href="{{route('countable')}}">Patrimonial</a> 
                         </li>
                         <li>
                             <a href="{{route('legal')}}">Legal</a> 
@@ -170,7 +170,7 @@
                         <a href="{{route('audit')}}">Auditoría</a>
                     </li>
                     <li>
-                        <a href="{{route('countable')}}">Contable</a> 
+                        <a href="{{route('countable')}}">Patrimonial</a> 
                     </li>
                     <li>
                         <a href="{{route('legal')}}">Legal</a> 
